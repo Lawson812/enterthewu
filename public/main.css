@@ -1,0 +1,60 @@
+@font-face{
+    font-family:bardn;
+    src:url(imgs/bardn.TTF)
+}
+body{
+  
+    background-color: black;
+    background-image:url(imgs/wusymbol.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+#randomLyric{
+    font-family:bardn;
+    color:white;
+    font-size:24px; 
+    border:1px solid white;
+    width:inherit;
+    height:inherit;
+    opacity:1;
+    border-radius:4%;
+    padding:5%;
+}
+.bgDiv{
+    position:absolute;
+    background-color:rgba(0,0,0,.5);
+    height:250px;
+    width:600px;
+    margin-left:50%;
+    margin-top:10%;
+    border-radius:4%;
+    }
+
+button{
+    border:1px solid white;
+    background-color:black;
+    color:#ffc20e;
+    margin-left:70%;
+    margin-top:2%;
+    border-radius:8%;
+    font-family:bardn;
+    font-size:20px;
+}
+.jumbotron{
+    background-color:rgba(255, 194, 14,.9);
+    border:3px solid black;
+    text-align:center;
+    width:80%;
+    margin-left:10%; 
+}
+.ODB{
+    position:absolute;
+    left:-5%;
+    top:0%;
+    z-index: -5;
+}
+h3{
+    font-family:bardn;
+    font-weight:bolder;
+    font-size:36px;
+}
